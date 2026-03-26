@@ -186,7 +186,11 @@
   display: contents;
 }
  
-.footer-thq-footer-social-icon-elm1 {
+.footer-thq-footer-social-icon-elm {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-link-elm1 {
   text-decoration: none;
 }
  
@@ -313,6 +317,15 @@
  
 .home-container9 {
   display: contents;
+}
+ 
+@media(max-width: 1600px) {
+  .home-thq-gallery-section-elm {
+    display: none;
+  }
+  .home-thq-testimonials-section-elm {
+    display: none;
+  }
 }
  
 @media(max-width: 767px) {

@@ -170,7 +170,11 @@
   display: contents;
 }
  
-.footer-thq-footer-social-icon-elm1 {
+.footer-thq-footer-social-icon-elm {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-link-elm1 {
   text-decoration: none;
 }
  
