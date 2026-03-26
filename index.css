@@ -319,15 +319,6 @@
   display: contents;
 }
  
-@media(max-width: 1600px) {
-  .home-thq-gallery-section-elm {
-    display: none;
-  }
-  .home-thq-testimonials-section-elm {
-    display: none;
-  }
-}
- 
 @media(max-width: 767px) {
   .home-thq-cta-contact-info-elm {
     gap: var(--spacing-sm);
