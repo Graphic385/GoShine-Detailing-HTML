@@ -2744,7 +2744,7 @@
  
 .navigation-dropdown-trigger {
   gap: var(--spacing-xs);
-  color: var(--color-on-surface);
+  color: var(--color-on-surface-secondary);
   border: none;
   cursor: pointer;
   display: inline-flex;
@@ -2753,6 +2753,7 @@
   background: none;
   align-items: center;
   font-family: inherit;
+  font-weight: var(--font-weight-medium);
 }
  
 .navigation-dropdown-trigger[aria-expanded="true"] .navigation-dropdown-icon {
