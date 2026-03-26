@@ -57,10 +57,32 @@
   transition: 0.3s;
 }
  
-.navigation-icon5 {
+.navigation-icon14 {
   fill: currentColor;
   width: 24px;
   height: 24px;
+}
+ 
+.navigation-thq-navigation-mobile-contact-elm {
+  gap: var(--spacing-sm);
+  margin: var(--spacing-md) 0;
+  display: flex;
+  padding: var(--spacing-md) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  flex-direction: column;
+}
+ 
+.navigation-link3 {
+  display: contents;
+}
+ 
+.navigation-link4 {
+  display: contents;
+}
+ 
+.navigation-link5 {
+  display: contents;
 }
  
 .navigation-container4 {
@@ -146,6 +168,10 @@
  
 .footer-container1 {
   display: contents;
+}
+ 
+.footer-thq-footer-social-icon-elm1 {
+  text-decoration: none;
 }
  
 .footer-thq-btn-elm {

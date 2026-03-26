@@ -2876,6 +2876,89 @@
   position: static;
 }
  
+.cta-contact-link {
+  gap: var(--spacing-xs);
+  color: var(--color-on-secondary);
+  display: flex;
+  opacity: 0.9;
+  font-size: var(--font-size-sm);
+  transition: opacity 0.2s ease;
+  align-items: center;
+  text-decoration: none;
+}
+ 
+.cta-contact-link:hover {
+  opacity: 1;
+}
+ 
+.cta-contact-link  svg {
+  flex-shrink: 0;
+}
+ 
+.navigation-mobile-contact-link {
+  gap: var(--spacing-sm);
+  color: var(--color-on-surface);
+  display: flex;
+  opacity: 0.8;
+  font-size: var(--font-size-sm);
+  transition: opacity 0.2s ease;
+  align-items: center;
+  text-decoration: none;
+}
+ 
+.navigation-mobile-contact-link:hover {
+  opacity: 1;
+}
+ 
+.navigation-mobile-contact-link  svg {
+  flex-shrink: 0;
+}
+ 
+.contact-item {
+  gap: var(--spacing-sm);
+  color: var(--color-on-surface);
+  display: flex;
+  font-size: var(--font-size-base);
+  transition: color 0.2s ease, transform 0.2s ease;
+  align-items: center;
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+ 
+.contact-item:hover {
+  color: var(--color-secondary);
+  transform: translateX(4px);
+}
+ 
+.contact-icon {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}
+ 
+.contact-text {
+  font-family: var(--font-family-body);
+  letter-spacing: var(--letter-spacing-body);
+}
+ 
+.booking-contact-link {
+  gap: var(--spacing-xs);
+  color: var(--color-on-surface);
+  display: flex;
+  font-size: var(--font-size-sm);
+  transition: color 0.2s ease;
+  align-items: center;
+  text-decoration: none;
+}
+ 
+.booking-contact-link:hover {
+  color: var(--color-secondary);
+}
+ 
+.booking-contact-link  svg {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}
+ 
 .Headings {
   font-size: 2em;
   font-family: Fraunces;
@@ -3125,6 +3208,9 @@
   .service-details__price {
     font-size: var(--font-size-xl);
   }
+  .contact-item {
+    font-size: var(--font-size-sm);
+  }
 }
  
 @media(max-width: 479px) {
@@ -3223,5 +3309,9 @@
   }
   .thq-dropdown-toggle {
     font-size: var(--font-size-2xl);
+  }
+  .contact-icon {
+    width: 20px;
+    height: 20px;
   }
 }
