@@ -190,10 +190,12 @@
   display: contents;
 }
  
-.footer-thq-navlinks-elm {
-  gap: 16px;
-  display: flex;
-  align-items: center;
+
+ 
+@media(max-width: 1600px) {
+  .footer-container2 {
+    display: flex;
+  }
 }
 
 .booking-container1 {
