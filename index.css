@@ -177,6 +177,12 @@
 .add-ons-container3 {
   display: contents;
 }
+ 
+@media(max-width: 1600px) {
+  .add-ons-thq-add-ons-note-elm1 {
+    width: 346px;
+  }
+}
 
 .footer-wrapper {
   display: contents;
