@@ -145,7 +145,7 @@
   }
 }
  
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .navigation-image {
     width: 301px;
     height: 344px;
@@ -181,6 +181,18 @@
 @media(max-width: 1600px) {
   .add-ons-thq-add-ons-note-elm1 {
     width: 346px;
+  }
+}
+ 
+@media(max-width: 390px) {
+  .add-ons-thq-add-ons-card-elm1 {
+    width: 359px;
+    margin-right: 0px;
+  }
+  .add-ons-thq-add-ons-note-elm1 {
+    width: 317px;
+    height: 35px;
+    margin-right: 12px;
   }
 }
 

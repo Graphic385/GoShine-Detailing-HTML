@@ -145,7 +145,7 @@
   }
 }
  
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .navigation-image {
     width: 301px;
     height: 344px;
